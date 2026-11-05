@@ -101,3 +101,9 @@ The references explain inspiration only; do not reproduce their maps, text, artw
 
 The sample map demonstrates connected room choices only. Actual map size, room distribution, run length, reward values and transition rules remain open until approved.
 
+
+## Raster map preview
+
+![Hollow Crypt branching map concept](assets/hollow-crypt-map.png)
+
+This PNG is the visual route example. The path layout is illustrative; generation rules, map size, room frequencies and reward tables remain open decisions.
