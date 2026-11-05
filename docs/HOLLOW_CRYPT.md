@@ -2,108 +2,80 @@
 
 ## 1. Mode identity
 
-**The Hollow Crypt** is an active, choice-driven exploration mode. It is separate from Auto Hunt.
+The Hollow Crypt is an active, choice-driven exploration mode, separate from Auto Hunt.
 
-- Auto Hunt: background farming and repeated automated dungeon encounters.
-- Hollow Crypt: the player actively chooses paths, rooms, risk and temporary run upgrades.
+- Auto Hunt: background farming and automated dungeon encounters.
+- Hollow Crypt: active path choices, room risk, exploration and temporary run effects.
 
-The concept draws inspiration from the map exploration and persistent-team-health ideas of Mortal Kombat Mobile's Krypt, and the branching route and run-specific passive choices found in Slay the Spire. It should use its own content and balance.
+The concept draws inspiration from map exploration and persistent-team-health ideas in Mortal Kombat Mobile's Krypt, and branching routes and run-specific passive choices in Slay the Spire. The Crypt must use its own content, rules and assets.
 
 ## 2. Run setup
 
-A proposed setup flow:
+A proposed setup:
 1. Choose a Crypt difficulty.
 2. Choose a team of exactly three characters.
 3. Start a new run.
 4. Reveal the first available map choices.
 
-Normal, Hard, Nightmare and Abyss were discussed as possible difficulty names, but they are not final.
+Normal, Hard, Nightmare and Abyss are candidate names only.
 
 ## 3. Branching map
 
-The Crypt is envisioned as a randomized branching map. Some of the map may be hidden until the player explores it. The player chooses which connected room to enter.
+The Crypt is envisioned as a randomized branching map with hidden rooms revealed as the player explores. Potential room types:
+- Battle
+- Elite
+- Treasure
+- Event
+- Merchant
+- Shrine/Rest
+- Boss
 
-Potential room types:
-- **Battle:** standard enemy encounter.
-- **Elite:** harder encounter with a more valuable reward.
-- **Treasure:** item or resource reward.
-- **Event:** a choice with a benefit, cost or risk.
-- **Merchant:** spend run currency on supplies or temporary effects.
-- **Shrine/Rest:** recovery or a special choice.
-- **Boss:** major encounter or run milestone.
-
-Room frequency, map length, reveal rules and route generation are all open decisions.
+Room frequency, map length and reveal rules are open decisions.
 
 ## 4. Persistent team health
 
-The central risk-management idea is that team HP carries between battles within the same Crypt run. The player must decide when to spend healing resources and which route to take.
+Team HP is intended to carry between battles within the same Crypt run, creating a route and recovery decision. Mana persistence, KO, revive, recovery rooms and consumable limits need explicit rules.
 
-The exact treatment of Mana between rooms, KO, revives, recovery rooms and consumable limits needs final rules. Do not assume that a character knocked out in the Crypt is unavailable to the player in every other game mode.
-
-A Crypt run should not impose an excessive lockout on the player's characters outside the run.
+A character knocked out in the Crypt should not automatically become unavailable in every other game mode. Do not impose an excessive outside-run lockout.
 
 ## 5. Temporary Run Relics
 
-The Crypt may offer temporary passive effects called **Run Relics**. They are not the same as permanent equipment Runes.
+Run Relics are temporary passive effects that exist only during one Crypt run.
 
-- Permanent Rune: equipped to one character in the Rune slot and retained in inventory.
-- Run Relic: temporary effect for the current Crypt run; removed when the run ends.
+- Equipment Rune: belongs to a character, remains in inventory when unequipped and uses the permanent Rune slot.
+- Run Relic: belongs to the current run and expires when that run ends.
 
-A proposed reward choice is to present three Run Relics after selected milestones (for example, an Elite or Boss), letting the player choose one. The number of choices, rarity and stacking rules remain open.
-
-Possible effect themes include attack, defense, healing, sustain or special encounter utility. Names and numerical effects are not finalized.
+A possible milestone reward is a choice among several Run Relics after selected rooms. The offer count, names, effects, stacking and rarity remain open. See [Run Relic catalogue status](items/crypt/run-relics.md).
 
 ## 6. Run currency and merchant
 
-A special temporary currency and a run-only merchant were proposed. The merchant could offer healing items, consumables, temporary effects or selected run supplies.
-
-The currency name, acquisition, prices, shop inventory and whether any permanent rewards are available are not decided.
+A temporary run currency and merchant were proposed. Their name, acquisition, prices, inventory and permanent reward rules have not been decided.
 
 ## 7. Outcomes
 
-Possible outcomes:
-- Victory: clear the final objective and receive the run's rewards.
-- Defeat: the team can no longer continue under the run's defeat rules.
-- Escape: the player chooses to leave early, with rewards resolved under an explicit escape rule.
-
-Partial rewards after defeat or escape were discussed as possibilities, not confirmed guarantees.
+Victory, defeat and escape are candidate outcomes. Partial rewards after defeat or escape were discussed but are not confirmed guarantees.
 
 ## 8. Difficulty and encounter variety
 
-Difficulty should change enemy composition, mechanics and risk—not just inflate HP. Elite enemies and bosses should have recognizable patterns and readable status effects.
+Difficulty should change enemy composition, mechanics and risk, not simply inflate HP. Elite enemies and bosses need recognizable patterns and clear status indicators.
 
 ## 9. Discord interaction design
 
-The Crypt should feel like a compact adventure interface:
-- One main map/status message.
-- Buttons or a select menu for connected paths.
-- Room detail and encounter messages.
-- A clear team HP display.
-- A concise inventory/temporary relic view.
-- Edited messages rather than repeated channel spam.
-
-Private or ephemeral responses may be used for player-specific choices when appropriate.
+Use one main map/status message, buttons or a select menu for connected paths, concise room/encounter views, clear team HP and a compact temporary-relic view. Prefer edited messages over repeated channel spam.
 
 ## 10. Persistence and safety
 
-Persist the current run after each meaningful choice, room transition, battle action and reward. A run must survive a bot restart. Use a unique run ID and ensure a room reward can only be claimed once.
+Persist the run after meaningful choices, room transitions, battle actions and reward settlement. Every room reward must be claimable only once. The run must survive bot restarts.
 
-## 11. Reference links
+## 11. References
 
 - [Mortal Kombat official site](https://www.mortalkombat.com/)
 - [Slay the Spire official site](https://www.megacrit.com/)
 
-The references explain inspiration only; do not reproduce their maps, text, artwork, names or exact reward content.
+These links explain design inspiration only; do not reproduce their maps, text, artwork, names or exact reward content.
 
-## 12. Crypt map visual example
+## 12. Map mockup
 
 ![Hollow Crypt branching map](assets/hollow-crypt-map.svg)
 
-The sample map demonstrates connected room choices only. Actual map size, room distribution, run length, reward values and transition rules remain open until approved.
-
-
-## Raster map preview
-
-![Hollow Crypt branching map concept](assets/hollow-crypt-map.png)
-
-This PNG is the visual route example. The path layout is illustrative; generation rules, map size, room frequencies and reward tables remain open decisions.
+The SVG demonstrates connected choices only. Map size, room frequencies, run length and reward tables remain open.

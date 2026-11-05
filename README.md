@@ -1,97 +1,89 @@
 # THE HOLLOW REALMS
 
-> A Discord-native RPG with dark-fantasy atmosphere, whimsical cartoon character design and premium, high-detail pixel-art presentation.
+> A Discord-native, turn-based RPG with a dark-fantasy atmosphere, whimsical character energy and premium, high-detail pixel-art presentation.
 
-**THE HOLLOW REALMS** is a turn-based RPG designed to be played inside Discord. Players collect characters, build a three-character team, equip weapons and armor, manage HP and Mana, fight through dungeons, and choose between active exploration and background farming.
+THE HOLLOW REALMS is designed to be played inside Discord. Players collect Adventure Time characters, build a three-character team, equip source-backed franchise weapons and game-system Runes, manage HP and Mana, and choose between background farming and active exploration.
 
-This repository currently contains the game's **design documentation**. It is not a claim that the bot or every described system has already been implemented.
+This repository is the living design archive. It documents the intended game; it does not claim that the bot or its systems have already been implemented.
 
-## At a glance
+## Project snapshot
 
-- **Platform:** Discord (slash commands, buttons, select menus, embeds and message updates).
-- **Visual direction:** Premium high-detail pixel art with flexible resolution and pixel density; no fixed bit-depth or sprite-size restriction.
-- **Character direction:** Adventure Time characters and their recognizable weapons/items for the current concept. No original player characters or invented franchise characters are in scope for now.
-- **Combat:** Classic turn-based RPG; one player controls exactly three characters.
-- **Resources:** HP and Mana. Mana regeneration is intentionally slow.
-- **Equipment:** Weapon, Armor, Rune, Accessory 1 and Accessory 2.
-- **Progression activities:** Auto Hunt and The Hollow Crypt serve different purposes.
-- **Combat cards/decks:** No deck-building or deck-based combat is currently part of the design.
-
-## Current visual studies
-
-The existing character PNGs are early block-in studies and are **not** the approved character-art quality bar. The updated art direction is documented in [Art Direction](docs/ART_DIRECTION.md); character artwork will be replaced by polished, high-detail designs rather than enlarging the old tiny sprites.
-
-## Pixel-art preview
-
-These are **actual PNG images** committed to the repository (not SVG source previews). They show the current visual direction for the character roster, weapon and Rune icons, collection cards, battle/equipment UI and Crypt map.
-
-![THE HOLLOW REALMS character pixel-art roster](docs/assets/character-pixel-roster.png)
-
-![Weapons, equipment and passive Rune icons](docs/assets/weapons-runes-equipment.png)
-
-![Accessory shape studies](docs/assets/accessory-shape-studies.png)
-
-![Character collection cards](docs/assets/character-collection-cards.png)
-
-![Battle and equipment UI concept](docs/assets/battle-equipment-ui.png)
-
-![The Hollow Crypt branching map](docs/assets/hollow-crypt-map.png)
-
-For descriptions and design notes, see **[Visual Examples & Pixel-Art Guide](docs/VISUAL_EXAMPLES.md)**.
-
-## Documentation
-
-| Document | What it covers |
+| Area | Current direction |
 |---|---|
-| [Game Design](docs/GAME_DESIGN.md) | Vision, pillars, core loop and game modes |
-| [Characters](docs/CHARACTERS.md) | Character roster direction, classes, stats and character progression |
-| [Combat](docs/COMBAT.md) | Three-character turn-based battles, actions, Mana and battle state |
-| [Weapons & Equipment](docs/EQUIPMENT_ITEMS.md) | Equipment slots, weapons, armor, runes, accessories and inventory |
-| [Auto Hunt](docs/AUTO_HUNT.md) | Background farming sessions and rewards |
-| [The Hollow Crypt](docs/HOLLOW_CRYPT.md) | Branching exploration run inspired by roguelite map choices |
-| [Cards & Collection UI](docs/CARDS_COLLECTION.md) | Collection presentation and the distinction between UI cards and card-game mechanics |
-| [Discord UX](docs/DISCORD_UX.md) | Commands, buttons, embeds, interaction flow and anti-spam rules |
-| [Art Direction](docs/ART_DIRECTION.md) | Pixel-art style, UI language, image needs and visual consistency |
-| [Technical Blueprint](docs/TECHNICAL_BLUEPRINT.md) | Suggested architecture, persistence, data model and reliability |
-| [Roadmap & Open Decisions](docs/ROADMAP.md) | Suggested implementation order and items not finalized yet |
+| Platform | Discord slash commands, buttons, select menus, embeds and edited messages |
+| Character content | Existing Adventure Time characters only for the current scope; no original characters |
+| Visual identity | Premium, high-detail pixel art; flexible canvas size and pixel density |
+| Battle | One player controls exactly three characters in classic turn-based combat |
+| Resources | HP and Mana; Mana regeneration is intentionally slow |
+| Equipment | Weapon, Armor, Rune, Accessory 1 and Accessory 2 |
+| Runes | One passive Rune slot per character |
+| Activities | Auto Hunt for background farming; The Hollow Crypt for active branching exploration |
+| Card terminology | Collection/detail cards are UI panels, not decks or card-based combat |
+| Realm progression | No Realm unlocking or Realm progression system |
+
+## Visual references supplied for this project
+
+These are the current reference images committed by the project owner. They guide the art treatment; they are not automatically approved final game assets or proof of usage rights.
+
+### Character-art quality reference
+
+![Character pixel-art quality reference](docs/assets/references/character-quality-reference.jpg)
+
+The target is a carefully rendered, expressive pixel-art character with a readable silhouette, detailed costume and equipment, deliberate pixel clusters and strong shading. Do not copy this image's character or details as a new game character.
+
+### Rune concept references
+
+![Rune reference overview](docs/assets/references/rune-reference-overview.jpg)
+
+![Rune reference details](docs/assets/references/rune-reference-details.jpg)
+
+The reference sheet identifies five current Rune concepts: Fury, Vitality, Wisdom, Restoration and Protection. The shown names and percentages are proposals, not final balance values. Each Rune has its own detailed dossier in the item catalogue.
+
+## Documentation map
+
+Start with [the documentation index](docs/README.md). The main design documents cover:
+
+| Document | Scope |
+|---|---|
+| [Game Design](docs/GAME_DESIGN.md) | Product vision, pillars and core loop |
+| [Characters](docs/CHARACTERS.md) | Character roster scope, classes, stats and progression |
+| [Combat](docs/COMBAT.md) | Three-character turn-based battles and Mana |
+| [Weapons & Equipment](docs/EQUIPMENT_ITEMS.md) | Five equipment slots, item rules and inventory |
+| [Item Catalogue](docs/items/README.md) | Individual item records, categories, status and open fields |
+| [Auto Hunt](docs/AUTO_HUNT.md) | Background farming and reward boundaries |
+| [The Hollow Crypt](docs/HOLLOW_CRYPT.md) | Branching exploration and temporary Run Relics |
+| [Cards & Collection UI](docs/CARDS_COLLECTION.md) | Character/item presentation without deck combat |
+| [Discord UX](docs/DISCORD_UX.md) | Commands, controls, embeds and low-spam interaction patterns |
+| [Art Direction](docs/ART_DIRECTION.md) | Character, Rune, item and interface visual standards |
+| [Visual Examples](docs/VISUAL_EXAMPLES.md) | Supplied references and historical mockups |
+| [Asset Register](docs/ASSET_REGISTER.md) | Image provenance, status, locations and rights checklist |
+| [Technical Blueprint](docs/TECHNICAL_BLUEPRINT.md) | Proposed architecture, persistence and reliability |
+| [Roadmap](docs/ROADMAP.md) | Suggested implementation sequence and unresolved decisions |
 
 ## Core gameplay loop
 
-```mermaid
-flowchart TD
-    A[Open the game in Discord] --> B[Manage characters and inventory]
-    B --> C[Build a team of 3]
-    C --> D{Choose an activity}
-    D --> E[Manual battles and challenges]
-    D --> F[Auto Hunt: background farming]
-    D --> G[The Hollow Crypt: active exploration]
-    E --> H[Earn progression rewards]
-    F --> H
-    G --> H
-    H --> B
-```
+1. Open the game through Discord.
+2. Review the character collection, team, inventory and equipment.
+3. Select exactly three characters for the team.
+4. Improve the team through character progression, weapons, armor, Runes, accessories and skills.
+5. Choose a manual battle, Auto Hunt session or Hollow Crypt run.
+6. Resolve rewards and return to team management.
 
-## Important design rules
+## Non-negotiable design boundaries
 
-1. **Discord is the game client.** Core play must work through Discord interactions; do not require a separate game client for ordinary play.
-2. **Three characters per battle.** One player controls all three characters. This is not a three-human co-op party.
-3. **Classic turn-based combat.** The player chooses each character's action, then enemies take their turn.
-4. **Mana, not Energy.** There is no parallel Energy resource. Mana regeneration is slow.
-5. **No deck combat.** Collection cards may be used as a presentation metaphor, but the battle system is not a deck-builder.
-6. **Auto Hunt and Crypt are different modes.** Auto Hunt automates farming; the Crypt is an active, choice-driven run.
-7. **No original characters for now.** Keep the current character concept limited to Adventure Time characters and existing franchise items until the direction changes.
-8. **Do not present proposals as shipped features.** Many values, drop rates, character skills and progression details still need balancing and approval.
+1. One player controls all three characters in a battle.
+2. The initial battle flow is: first team member action, second team member action, third team member action, then the enemy phase.
+3. Basic Attack is free. Skills generally consume Mana. There is no separate Energy resource.
+4. Mana does not refill after every action; regeneration is deliberately slow.
+5. Equipment has exactly five slots: Weapon, Armor, Rune, Accessory 1 and Accessory 2. There is no Headgear slot.
+6. A Rune is passive equipment, not a selectable battle skill. Replacing a Rune returns the old Rune to inventory.
+7. Ordinary Auto Hunt must not directly award playable characters or weapons.
+8. Auto Hunt and The Hollow Crypt are different activities.
+9. No original characters or invented Adventure Time canon items are in scope for now.
+10. No deck-building or Realm-unlocking system is part of the current design.
 
-## Status and scope
+## Status discipline
 
-This is a living design specification. The detailed documents label unconfirmed details as **proposal**, **example**, or **open decision**. Numeric examples are placeholders, not final balance values.
+Every catalogue entry and mechanic is labelled as confirmed direction, source-backed reference, proposal or open decision. Values shown in reference images are not final balance. Unknown item names, acquisition routes, rarity, stats and upgrade costs stay explicitly unknown until approved.
 
-## References
-
-- [Adventure Time — official Cartoon Network site](https://www.cartoonnetwork.com/)
-- [Discord Developer Documentation](https://discord.com/developers/docs/intro)
-- [Discord Components](https://discord.com/developers/docs/components/overview)
-- [discord.py documentation](https://discordpy.readthedocs.io/)
-- [Mortal Kombat Mobile — official game page](https://www.mortalkombat.com/)
-- [Slay the Spire — official site](https://www.megacrit.com/)
-- [GitHub repository](https://github.com/SaylerX505/sex4cards)
+Adventure Time is protected intellectual property. A reference image or fan-maintained wiki is not a licence. Public or commercial release requires appropriate rights and asset-permission review.

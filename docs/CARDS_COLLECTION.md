@@ -1,99 +1,68 @@
 # Cards, Character Collection & Item Presentation
 
-## 1. Important terminology
+## 1. Terminology
 
-The project has a collection-oriented RPG identity, and Discord interfaces may use **cards** as compact visual panels. However, the user has explicitly ruled out deck-based combat.
+Discord interfaces may use compact cards as presentation panels. They are not cards in a deck-building combat system.
 
-For this specification:
-- A **Character Card** is a UI/presentation view of one owned character.
-- An **Item Card** is a UI/presentation view of one weapon, armor piece, Rune, accessory or consumable.
-- A **Collection Card** is a compact tile in a roster or inventory gallery.
-- A **Deck** is not part of the current combat design.
+- Character Card: UI view of one owned character.
+- Item Card: UI view of one weapon, armor piece, Rune, accessory or consumable.
+- Collection Card: compact tile in a roster or inventory gallery.
+- Deck: not part of the current combat design.
 
-Do not implement card draws, deck construction, card hands, card energy or deck-based battles unless the game direction is explicitly changed.
+No card draws, deck construction, card hands, card energy or deck-based battles.
 
 ## 2. Character collection
 
-The character collection should let a player:
-- Browse all characters they own.
-- See locked/unowned entries if a discovery index is approved.
-- Filter by class or rarity.
-- Sort by level, name or recently acquired.
-- Open a character detail view.
-- Inspect current stats, skills and equipment.
-- Select characters for the three-person team.
-
-The collection should be usable on mobile Discord. Use pagination and compact controls rather than trying to show the entire roster in one embed.
+Players should be able to browse owned characters, inspect details, filter/sort, compare stats and select the three-person team. A locked-character index is optional and must be approved separately.
 
 ## 3. Character card content
 
-A character card can show:
-- Pixel-art portrait or sprite.
-- Display name.
-- Class icon/name.
-- Rarity, if the rarity system is approved.
-- Character level.
-- HP, ATK and other relevant stats.
-- Owned/equipped status.
-- A button to open full details.
-
-Do not invent final stats or rarity labels in static art. Bind displayed values to the character's saved data.
+A card may show portrait, display name, class, rarity (if approved), level, key stats, owned/equipped status and a detail action. Do not place unapproved final values into static artwork.
 
 ## 4. Item cards
 
 An item card should show:
-- Pixel-art icon.
-- Item name and category.
-- Rarity (if approved).
-- Main stats and secondary effects.
-- Compatible class/slot, if restrictions exist.
-- Upgrade level.
-- Equipped-by indicator.
-- Equip/unequip/compare controls.
+- Approved item artwork/icon.
+- Exact item name and category.
+- Equipment slot or use context.
+- Rarity only if approved.
+- Main stats and full effect description.
+- Upgrade level, if that system is approved.
+- Equipped-by or ownership indicator.
+- Available actions such as inspect, compare, equip or consume.
 
-For a Rune, make its passive nature clear. For a Crypt Run Relic, show that it expires at the end of the run.
+For a Rune, clearly label its effect as passive. For a Crypt Run Relic, show that it expires at the end of the current run.
 
-## 5. Visual card layout
+Every named item must link to its individual dossier in the [Item Catalogue](items/README.md). Category placeholder art is not enough to create a named item card.
 
-Recommended information hierarchy:
-1. Image/silhouette and name.
-2. Role or item category.
-3. One or two key stats.
-4. Short effect description.
+## 5. Information hierarchy
+
+1. Image/silhouette and item name.
+2. Category and slot/use context.
+3. Main effect or stat.
+4. Secondary details and restrictions.
 5. Action controls.
 
-Keep descriptions short enough for Discord. A full details view can contain the longer tooltip and full stat list.
+Keep the short version readable on mobile Discord. The full detail view can contain the full dossier summary.
 
 ## 6. Rarity presentation
 
-Common/Rare/Epic/Legendary were discussed as possible tiers. If approved, rarity should be communicated with a consistent border, label or icon—not color alone. Ensure the interface remains readable for color-blind players and in Discord dark/light themes.
+Common/Rare/Epic/Legendary are candidate rarity labels only. If approved, communicate rarity using a consistent border, label or icon and do not rely on color alone.
 
-## 7. Collection completion
+## 7. Collection completion and social features
 
-Achievements, collection completion rewards, favorites, wishlists and trading were discussed as possible future features in broader bot research. They are not currently approved core systems. Keep the initial data model extensible, but do not add these features to the MVP without a design decision.
+Achievements, collection completion rewards, favorites, wishlists, trading, PvP and co-op are not approved core systems. Keep the data model extensible without adding them to the MVP.
 
 ## 8. No deck combat
 
-This is a hard boundary in the current design:
-- No card-based turn selection.
-- No deck-building.
-- No card draw mechanic.
-- No card energy.
-- Combat remains character-based, turn-based RPG with Attack, Skill, Defend and Item choices.
+Combat remains character-based, turn-based RPG with Attack, Skill, Defend and Item choices.
 
 ## 9. Asset provenance
 
-Store asset source, license/permission status, attribution and file path alongside each character/item image. Adventure Time artwork is protected franchise material; the existence of a wiki image or a public URL does not mean the project has permission to redistribute it.
+Track source, creator, permission/license, attribution and file path beside each character and item asset. Protected Adventure Time artwork cannot be redistributed solely because it appears on a wiki or public image URL.
 
-## 10. Visual example
+## 10. Visual examples
 
-![Character collection cards](assets/cards-collection-mockup.svg)
+![Character collection UI mockup](assets/cards-collection-mockup.svg)
 
-See [Visual Examples](VISUAL_EXAMPLES.md) for the full collection and Character Card mockups. Cards remain collection/presentation UI only; they do not become a deck or combat mechanic.
-
-
-## Pixel-art collection card preview
-
-![Character collection cards](assets/character-collection-cards.png)
-
-The cards are visual collection panels only. They are not battle cards, deck slots or a card-draw system. Current class, level and rarity fields are placeholders until the character data is approved.
+See [Visual Examples](VISUAL_EXAMPLES.md) for the current character/Rune references and historical PNG studies.

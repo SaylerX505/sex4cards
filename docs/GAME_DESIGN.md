@@ -2,96 +2,92 @@
 
 ## 1. Product vision
 
-**THE HOLLOW REALMS** is a Discord-native RPG that combines familiar turn-based party combat, character collection, equipment progression, repeatable farming and a more deliberate roguelite exploration mode.
+THE HOLLOW REALMS is a Discord-native RPG that combines character collection, classic turn-based team combat, equipment progression, repeatable farming and a deliberate roguelite exploration mode.
 
-The intended tone is **dark fantasy with whimsical cartoon energy**. The world should feel mysterious and slightly eerie without becoming relentlessly grim. The art direction is 16-bit pixel art, with readable silhouettes, expressive faces, compact sprites and richly themed environments.
+The tone is dark fantasy with whimsical cartoon energy. The visual language is premium, high-detail pixel art with flexible resolution and pixel density. There is no fixed bit-depth, palette count or sprite-canvas requirement.
 
-The project name is fixed as **THE HOLLOW REALMS**. The current design does **not** include a Realm Unlocking or Realm Progression system. Do not introduce one as a core progression layer.
+The project name is fixed. The design does not include Realm unlocking or Realm progression. Do not add such a system.
 
 ## 2. Design pillars
 
 ### Discord-native
-The game is operated through slash commands, buttons, select menus, embeds and edited interaction messages. A player should be able to manage their party, inspect equipment and play encounters without leaving Discord.
+Core play is operated through slash commands, buttons, select menus, embeds and edited interaction messages. Normal play should not require a separate game client.
 
 ### Readable tactical combat
-Combat is classic turn-based RPG. The player controls exactly three characters and selects an action for each. The enemies act after the player's team has completed its actions.
+One player controls exactly three characters. The player selects an action for each team member in displayed order; enemies act after the third player action.
 
 ### Meaningful team building
-Character class, base stats, skills, equipment, runes and accessories combine to define a team's strengths. The player should have meaningful choices without needing complicated combos or a large number of subsystems.
+Character class, stats, skills, equipment, Runes and accessories define the team's strengths without relying on complicated combo chains or many parallel resources.
 
-### Two different repeatable activities
-- **Auto Hunt:** efficient background farming and repeated encounters.
-- **The Hollow Crypt:** active exploration, branching choices, risk management and temporary run effects.
+### Two distinct repeatable activities
+- Auto Hunt is background farming through automated encounters.
+- The Hollow Crypt is active exploration with path choices, risk and temporary run effects.
 
-These modes share the battle rules where applicable, but they should not feel interchangeable.
-
-### Collection and visual identity
-Characters and items should be easy to browse, recognize and compare. Pixel-art portraits, sprites, item icons, rarity treatments and clear stat summaries support the collection fantasy.
+### Recognizable collection and item identity
+Every named item should have its own documented dossier and visual identity. Do not treat a category icon or generic silhouette as a named, approved item.
 
 ## 3. Core player loop
 
 1. Open the bot's main menu in Discord.
-2. Review character roster, team, inventory and equipment.
-3. Select three characters for a battle team.
-4. Improve the team through levels, weapons, armor, runes, accessories and skills.
-5. Choose an activity: manual challenge, dungeon/Auto Hunt or The Hollow Crypt.
+2. Review the character roster, team, inventory and equipment.
+3. Select exactly three characters for a battle team.
+4. Improve the team through levels, skills, weapons, armor, Runes and accessories.
+5. Choose a manual challenge, Auto Hunt session or Hollow Crypt run.
 6. Earn rewards and materials.
-7. Return to roster and inventory management, then prepare for the next activity.
+7. Return to the roster and inventory to prepare the next activity.
 
 ## 4. Main systems
 
-| System | Purpose | Design status |
+| System | Purpose | Status |
 |---|---|---|
-| Characters | Collectible party members with classes and skills | Core concept agreed; roster and balance open |
-| Classes | Define a character's combat role | Class-based characters agreed; exact class list is a proposal |
-| Combat | Tactical turn-based battles | Core flow agreed |
-| Mana | Resource used by active skills | Mana confirmed; slow regeneration confirmed |
-| Equipment | Character power customization | Five equipment slots agreed |
-| Runes | Passive stat/effect bonuses | Rune slot and passive-buff role agreed |
-| Auto Hunt | Background farming | Core behavior agreed; limits and formulas open |
-| Hollow Crypt | Active branching exploration | Concept agreed; room rules and rewards open |
-| Collection cards | Visual presentation of owned characters/items | UI direction only; not deck combat |
-| Trading/PvP | Social/economy features | Not in initial scope; not approved |
+| Characters | Collectible playable units | Core concept agreed; roster and balance open |
+| Classes | Define combat roles | Class-based design agreed; exact list is a proposal |
+| Combat | Turn-based team battles | Core flow agreed |
+| Mana | Resource for active skills | Mana and slow regeneration agreed |
+| Equipment | Character customization | Five slots agreed |
+| Runes | Passive stat/effect bonuses | One Rune slot and passive role agreed; effects need balancing |
+| Auto Hunt | Background farming | Core behavior agreed; limits and reward rates open |
+| Hollow Crypt | Active branching exploration | Concept agreed; room and reward rules open |
+| Collection cards | Character/item presentation | UI only; not deck combat |
 
 ## 5. What the game is not
 
-- It is not a deck-building RPG.
-- It does not use Energy alongside Mana.
-- It is not a three-player battle party; one player controls three characters.
-- Auto Hunt is not a stream of repeated public Discord messages.
-- The Crypt is not the same thing as Auto Hunt.
-- The game does not currently create original characters or original franchise-like weapons.
-- The game does not have Realm unlocking/progression.
+- Not a deck-building RPG.
+- Does not use Energy alongside Mana.
+- Not a three-human battle party.
+- Auto Hunt is not a public stream of repeated encounter messages.
+- The Crypt is not interchangeable with Auto Hunt.
+- Does not currently create original characters or original franchise-like weapons/items.
+- Has no Realm unlocking or Realm progression.
 
 ## 6. Current content direction: Adventure Time
 
-The current character concept is a mix of Adventure Time characters, with **no original characters added for now**. Character names, depictions, recognizable weapons and items should be sourced from the franchise rather than invented for this project.
+The current character and item direction is based on existing Adventure Time characters and recognizable franchise objects. No original characters or invented Adventure Time canon items are in scope for now.
 
-The game mechanics (classes, stats, battle rules, item slots and reward systems) are original game-design structures. They should not be confused with official Adventure Time canon.
+Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO have been mentioned as candidate characters, not a finalized launch roster. Character class, stats, rarity and skill kits are original game mechanics and must not be presented as official franchise canon.
 
-Examples of characters discussed as possible roster entries include Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. This is a candidate list, not a finalized launch roster. Class assignments and skill kits must be researched and approved rather than treated as canon.
+Named weapons already identified for research are Grass Sword, Demon Blood Sword and Ax Bass. Their lore and visual identity are documented separately from their unapproved in-game stats and acquisition routes.
 
-## 7. Inspirations and reference boundaries
+## 7. Inspiration boundaries
 
-- **Mortal Kombat Mobile Krypt:** reference for a map-based run, persistent team health, room choices, consumables and a special reward shop.
-- **Slay the Spire:** reference for branching route selection and run-specific passive relic choices.
-- **OwO and other Discord RPG bots:** reference for repeatable hunt loops and compact Discord interactions, not for message spam or copying their complete mechanics.
+- Mortal Kombat Mobile Krypt: inspiration for map-based runs, persistent team health, room choices and reward decisions.
+- Slay the Spire: inspiration for branching routes and temporary run-specific passive choices.
+- OwO and other Discord RPG bots: inspiration for repeatable hunt loops and compact interactions, not message spam or direct copying.
 
-References are inspiration, not instructions to copy protected assets, names, code or exact content.
+Use original system design and project-owned presentation. Do not copy protected names, text, art, maps or code from inspiration sources.
 
-## 8. Product language
+## 8. Shared vocabulary
 
-Use these terms consistently:
-- **Character:** a collectible playable unit.
-- **Team:** exactly three selected characters for combat.
-- **Class:** the character's combat role.
-- **Skill:** an active ability that may consume Mana.
-- **Ultimate:** a character's strongest active ability; exact charge/availability rules remain open.
-- **Rune:** a passive piece of equipment in one dedicated slot.
-- **Run Relic:** a temporary effect that exists only during a Hollow Crypt run.
-- **Auto Hunt session:** a background sequence of automated dungeon encounters.
-- **Crypt run:** one active exploration attempt through a branching map.
+- Character: a collectible playable unit.
+- Team: exactly three selected characters.
+- Class: a character's game-combat role.
+- Skill: an active ability that may consume Mana.
+- Rune: permanent passive equipment in the Rune slot.
+- Run Relic: a temporary effect for one Hollow Crypt run.
+- Item instance: one owned copy of an item definition.
+- Auto Hunt session: a background sequence of automated encounters.
+- Crypt run: one active exploration attempt through a branching map.
 
 ## 9. Scope discipline
 
-When a mechanic has not been confirmed, label it as a proposal or open decision. Do not quietly turn sample numbers, suggested character kits, drop tables or room schedules into final requirements.
+When something is not confirmed, label it proposal or open decision. Do not silently turn sample numbers, suggested kits, reward categories or visual shape studies into final game content. See the [item catalogue](items/README.md) for item-by-item status.

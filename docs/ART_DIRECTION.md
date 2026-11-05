@@ -2,100 +2,103 @@
 
 ## 1. Core vision
 
-The target is **premium, high-detail pixel-art illustration**, not a retro hardware simulation. Do not lock the art to 8-bit, 12-bit, 16-bit, a fixed palette size, or a tiny sprite canvas. Pixel art is the visual language; quality, expressive design and readability are the priorities.
+The target is premium, high-detail pixel-art illustration. Pixel art is the visual language, not a retro hardware constraint. Do not lock the work to 8-bit, 12-bit or 16-bit, a fixed palette size, one pixel scale or a tiny sprite canvas.
 
-The desired finish should feel like a professionally art-directed indie RPG: richly rendered character illustrations, intentional pixel clusters, layered shading, controlled highlights, strong silhouettes and carefully designed materials. The characters should feel like polished game artwork—not tiny placeholder sprites enlarged with nearest-neighbor scaling.
+The finish should feel professionally art-directed: deliberate pixel clusters, layered values, expressive character acting, refined silhouettes, clean materials, coherent lighting and carefully designed equipment. The art should hold up in a large profile view and remain readable in a small Discord embed.
 
-The world combines:
-- Dark-fantasy atmosphere with whimsical cartoon character energy.
-- Expressive character acting and recognizable silhouettes.
-- Richly detailed hair, faces, clothing, accessories and weapons.
-- Dramatic but readable lighting.
-- Deep purple, near-black, crimson and antique-gold accents, balanced with each character's recognizable colors.
-- Cohesive UI and item art that feels part of the same game.
+## 2. Owner-supplied visual references
 
-## 2. Character quality bar
+### Character quality and rendering reference
 
-Character art is the highest-priority visual category. Every character needs a deliberate design pass, not a generic sprite template.
+![Character pixel-art reference](assets/references/character-quality-reference.jpg)
 
-**Required qualities**
-- Strong, instantly recognizable silhouette and proportions.
-- Face with expressive eyes, brows, mouth and readable emotion.
-- Layered hair/fur/skin shading with intentional highlights and shadow shapes.
-- Clothing with folds, seams, trims, material variation and small identifying details.
-- Weapons and accessories drawn as designed objects with clear construction, perspective and highlights.
-- A coherent light source and consistent rendering finish.
-- Enough resolution and pixel density to preserve detail in both a large character view and a smaller Discord UI crop.
+Use this as a quality and rendering reference: expressive silhouette, visible costume construction, layered hair, controlled highlights and readable pixel clusters. It is not a new character specification and must not be copied as a new character or as a replacement for a source-backed Adventure Time design.
 
-**Do not**
-- Force all characters into 32×32, 64×64 or any other fixed canvas.
-- Enlarge crude sprites and call the result finished art.
-- Use large flat rectangles as substitutes for anatomy, clothing or facial features.
-- Make every character share the same body proportions or face.
-- simplify signature shapes until the character is no longer recognizable.
+### Rune icon and presentation references
 
-## 3. Pixel technique and flexibility
+![Rune reference overview](assets/references/rune-reference-overview.jpg)
 
-Use high-resolution pixel-art techniques where they improve the result:
-- Variable canvas dimensions per asset.
-- Dense, intentional pixel clusters and selective single-pixel accents.
-- Multi-step ramps for skin, fabric, metal, hair and magical effects.
-- Clean anti-cluster control: avoid noisy dithering and random pixel texture.
-- Pixel-shaped highlights and shadows; no automatic blur.
-- Nearest-neighbor scaling for actual sprite exports, while allowing larger native-resolution illustrations for portraits and cards.
-- Separate source artwork from UI-sized exports so the game can create multiple crops without degrading the master.
+![Rune reference detail](assets/references/rune-reference-details.jpg)
 
-There is no mandatory bit depth, palette limit, tile size, sprite frame size or universal pixel scale. Define technical dimensions per asset after its composition and use are known.
+These images define the current visual study for five passive Rune concepts: Fury, Vitality, Wisdom, Restoration and Protection. Preserve each concept's distinct symbol language and color identity during the next design pass. The displayed percentages are proposed values, not final balance.
 
-## 4. Character asset set
+The provided screenshots are reference boards, not isolated production icon exports. Create clean individual transparent icons from approved source artwork during asset production; do not crop screenshot UI and call it final.
 
-Each approved character should eventually have:
-1. **Hero artwork / portrait:** polished, detailed presentation art for collection and profile views.
-2. **Battle sprite:** readable combat pose with the same design language and carefully chosen pixel density.
-3. **Portrait crop:** face-focused view for compact Discord embeds.
-4. **Expression set:** a small number of clear emotions/status expressions if useful.
-5. **Animation frames:** idle, attack, hit, defend, skill and victory only when the MVP needs them.
+## 3. Character quality bar
 
-All versions must come from one approved design sheet. Do not redesign facial features, costume details or weapon proportions independently between views.
+Every character needs a deliberate design pass, not a generic sprite template.
 
-## 5. Weapons, Runes and Accessories
+Required:
+- Strong, recognizable silhouette and character-specific proportions.
+- Expressive face with readable eyes, brows and emotion.
+- Layered hair, fur, skin and clothing shading.
+- Costume construction: folds, seams, trims, fasteners and material variation where appropriate.
+- Carefully rendered source-backed signature equipment.
+- Coherent light direction, intentional highlights and controlled shadow shapes.
+- Enough detail for portrait, collection view and battle crop without losing identity.
 
-Items must receive the same level of care as characters:
-- Weapons: readable construction, blade/handle details, material highlights and recognizable silhouette.
-- Runes: distinct magical symbols with layered stone/crystal/metal treatment, but clear enough to read as small UI icons.
-- Accessories: more variety in shape and material—metal, gems, leather, cloth and magical details—while remaining grounded in approved Adventure Time items.
-- Keep transparent-background master assets where appropriate.
-- The two Accessory equipment slots remain unchanged; this is an art-quality update, not a slot-system change.
+Do not:
+- Enforce a universal 32×32, 64×64, 64×72 or other fixed canvas.
+- Enlarge crude placeholder sprites and call the result finished art.
+- Use flat rectangles as substitutes for anatomy, fabric or facial features.
+- Force every character into identical body proportions or facial treatment.
+- Add costume parts, weapons or accessories that are not part of the source-backed design.
 
-Do not invent new Adventure Time canon objects or original franchise characters. The current content scope remains existing Adventure Time characters and source-backed items only.
+## 4. Pixel technique and flexibility
 
-## 6. Palette and lighting
+- Choose canvas dimensions for the composition and use case.
+- Use dense intentional clusters and selective pixel accents.
+- Use material-specific value ramps for skin, fabric, metal, leather, hair and magic.
+- Avoid noisy dithering, random texture and automatic blur.
+- Use nearest-neighbor scaling for sprite exports where pixel scaling is intended.
+- Keep the high-resolution master separate from portrait, embed and thumbnail exports.
+- Do not define a global palette limit, bit depth, tile size or sprite frame size.
 
-The world palette uses deep purple, black, crimson and gold as environmental/UI anchors. Character-specific colors remain important; do not recolor Finn, Jake, Marceline or others into a single monochrome palette. Use warm/cool contrast to separate characters from dark backgrounds. Gold should signal rarity, rewards or important UI focus—not cover every object.
+## 5. Character asset set
 
-## 7. Discord presentation
+Each approved character should eventually receive:
+1. Hero portrait / collection artwork.
+2. Battle sprite with a readable action pose.
+3. Portrait crop for compact embeds.
+4. Optional expression set.
+5. Animation frames only when required by the MVP.
 
-Prepare art for three display contexts:
-- **Large view:** full detail and character personality.
-- **Embed view:** clear face, silhouette and main equipment.
-- **Thumbnail/icon:** simplified focal point that remains recognizable.
+All variants should derive from one approved design sheet. Do not redesign costume, face or weapon between output sizes.
 
-Do not shrink a detailed portrait until its important features disappear. Use intentional crops and dedicated icon exports. The artwork must remain legible on mobile Discord clients.
+## 6. Item quality bar
 
-## 8. Current mockup status
+Items must receive the same art direction as characters.
 
-The existing PNG character roster is an early placeholder study and does **not** meet this updated quality bar. Keep the other UI, map, Rune and equipment concepts as provisional references where useful, but replace the character art with a new professional pass before treating it as final. Do not present the old 64×72 studies as the desired style.
+- Weapons need a recognizable silhouette, clear construction, readable handle/guard/blade details and material highlights.
+- Runes need distinct symbols and a consistent magical-material treatment; each must remain readable as a small icon.
+- Armor needs clear material, coverage, construction and silhouette; no item names are approved yet.
+- Accessories should only be illustrated after a real, source-backed Adventure Time object has been selected. Do not turn generic pendant/ring/watch silhouettes into canon items.
+- Consumables and materials need distinct category silhouettes and concise visual hierarchy once their exact item identities are approved.
 
-## 9. Licensing and provenance
+## 7. Palette and lighting
 
-Adventure Time characters, recognizable designs, branding and signature items are protected franchise material. Any public or commercial release needs appropriate rights. A reference image, fan wiki page or search result is not a license.
+Use deep purple, near-black, crimson and antique gold as world/UI anchors. Preserve the recognizable color identity of each character and item. Use gold for rarity/reward emphasis rather than covering every asset in gold. The five Rune concepts have individual color directions documented in their dossiers.
 
-Track source URL, creator, rights/permission, attribution requirements and repository path for each asset. Do not scrape or redistribute reference artwork without checking its terms.
+## 8. Discord presentation
 
-## 10. References
+Produce intentional exports for:
+- Large character/item detail view.
+- Embed-sized portrait or icon.
+- Thumbnail and selection-list use.
 
-- [Adventure Time — Cartoon Network](https://www.cartoonnetwork.com/)
-- [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials)
-- [Lospec Palette List](https://lospec.com/palette-list)
-- [Aseprite](https://www.aseprite.org/)
-- [Visual Examples](VISUAL_EXAMPLES.md)
+Do not shrink a detailed asset until its important features vanish. Design the crop for mobile Discord and both dark and light UI contexts.
+
+## 9. Asset status
+
+- Owner-supplied JPGs under assets/references are current internal design references.
+- Earlier generated PNG concept sheets in assets are archived exploratory work, not the current character/item art target.
+- SVGs in assets are UI/layout mockups, not screenshots of a completed bot.
+- No final production character or item asset is claimed by this document.
+
+See [Asset Register](ASSET_REGISTER.md) and [Visual Examples](VISUAL_EXAMPLES.md).
+
+## 10. Source, licensing and provenance
+
+Adventure Time characters, recognizable designs, branding and signature objects are protected franchise material. A reference or fan-maintained wiki is not a license. Public or commercial release requires appropriate rights.
+
+For every production asset, record source URL, creator, permission/license, attribution terms, derivative rights, asset path and review status. Do not scrape or redistribute reference art without checking its terms.
