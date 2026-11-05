@@ -88,3 +88,13 @@ For any original UI/background assets created for the project, record the creato
 - [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials)
 - [Lospec Palette List](https://lospec.com/palette-list)
 - [Aseprite](https://www.aseprite.org/) — pixel-art editor.
+
+## 10. Visual mockups
+
+The project includes interface and style-board examples in [Visual Examples](VISUAL_EXAMPLES.md):
+- [Overall visual overview](assets/visual-overview.svg)
+- [Pixel-art palette and rules](assets/pixel-art-style-board.svg)
+- [Discord main menu](assets/discord-main-menu.svg)
+
+These are SVG design mockups. They use neutral art placeholders and do not introduce new characters or named franchise items. Final Adventure Time pixel-art assets must be approved/licensed and tracked in the asset register.
+
