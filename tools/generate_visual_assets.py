@@ -163,3 +163,5 @@ for x,y,label in [(220,360,"START"),(470,260,"BATTLE"),(470,500,"EVENT"),(710,36
  bb=d.textbbox((0,0),label,font=f(15,True)); d.text((x-(bb[2]-bb[0])//2,y-10),label,font=f(15,True),fill=TEXT)
 txt(d,(80,770),"Map and room schedule are examples only; final generation and reward rules remain open.",14,MUTED)
 im.save(OUT/"hollow-crypt-map.png")
+
+# Re-run asset generation after workflow setup.
