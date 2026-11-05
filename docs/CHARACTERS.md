@@ -119,3 +119,10 @@ Do not add a gacha, card-pack or random character banner without an explicit des
 ## 9. Franchise and asset caution
 
 Adventure Time characters and their visual designs are protected franchise material. A public or commercial release may require licensing/permission. Do not create replacement characters that imitate protected characters as a workaround. Keep source attribution and asset provenance in the content database, and obtain legal guidance before release.
+
+## 10. Character card example
+
+![Character detail card](assets/character-card-mockup.svg)
+
+The artwork frame is a placeholder for approved/licensed Adventure Time pixel art. The displayed character is a candidate roster example only; class, rarity, skills and stats remain unfinalized until explicitly approved.
+
