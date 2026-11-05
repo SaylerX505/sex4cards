@@ -1,6 +1,6 @@
 # THE HOLLOW REALMS
 
-> A Discord-native, dark-fantasy RPG with whimsical cartoon energy and 16-bit pixel-art presentation.
+> A Discord-native RPG with dark-fantasy atmosphere, whimsical cartoon character design and premium, high-detail pixel-art presentation.
 
 **THE HOLLOW REALMS** is a turn-based RPG designed to be played inside Discord. Players collect characters, build a three-character team, equip weapons and armor, manage HP and Mana, fight through dungeons, and choose between active exploration and background farming.
 
@@ -9,13 +9,17 @@ This repository currently contains the game's **design documentation**. It is no
 ## At a glance
 
 - **Platform:** Discord (slash commands, buttons, select menus, embeds and message updates).
-- **Visual direction:** 16-bit pixel art; dark fantasy mixed with whimsical cartoon character design.
+- **Visual direction:** Premium high-detail pixel art with flexible resolution and pixel density; no fixed bit-depth or sprite-size restriction.
 - **Character direction:** Adventure Time characters and their recognizable weapons/items for the current concept. No original player characters or invented franchise characters are in scope for now.
 - **Combat:** Classic turn-based RPG; one player controls exactly three characters.
 - **Resources:** HP and Mana. Mana regeneration is intentionally slow.
 - **Equipment:** Weapon, Armor, Rune, Accessory 1 and Accessory 2.
 - **Progression activities:** Auto Hunt and The Hollow Crypt serve different purposes.
 - **Combat cards/decks:** No deck-building or deck-based combat is currently part of the design.
+
+## Current visual studies
+
+The existing character PNGs are early block-in studies and are **not** the approved character-art quality bar. The updated art direction is documented in [Art Direction](docs/ART_DIRECTION.md); character artwork will be replaced by polished, high-detail designs rather than enlarging the old tiny sprites.
 
 ## Pixel-art preview
 
