@@ -91,3 +91,9 @@ Store asset source, license/permission status, attribution and file path alongsi
 
 See [Visual Examples](VISUAL_EXAMPLES.md) for the full collection and Character Card mockups. Cards remain collection/presentation UI only; they do not become a deck or combat mechanic.
 
+
+## Pixel-art collection card preview
+
+![Character collection cards](assets/character-collection-cards.png)
+
+The cards are visual collection panels only. They are not battle cards, deck slots or a card-draw system. Current class, level and rarity fields are placeholders until the character data is approved.
