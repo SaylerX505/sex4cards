@@ -1,99 +1,94 @@
 # Visual Examples & Pixel-Art Guide
 
-This page contains the **raster PNG previews** for THE HOLLOW REALMS. These files are stored in `docs/assets/` and should display directly in GitHub's Markdown viewer.
+This page contains raster PNG previews for THE HOLLOW REALMS. These images are committed to `docs/assets/` and render directly in GitHub Markdown.
 
-> **Important:** These are early pixel-art concept studies and interface mockups, not final shipped assets or official Adventure Time artwork. They visualize the direction and selected recognizable references. Final character/item assets need a proper art pass and the appropriate rights for release.
+> **Status:** These are higher-detail pixel-art concept studies and interface mockups, not final shipped assets or official Adventure Time artwork. They communicate the art direction. Final franchise art and named items require source research and appropriate rights for release.
 
 ## 1. Character sprite direction
 
-![Adventure Time character pixel-art roster studies](assets/character-pixel-roster.png)
+![Detailed Adventure Time character pixel-art studies](assets/character-pixel-roster.png)
 
-The roster studies visualize the characters discussed so far: Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. The launch roster is not yet finalized. The class labels, skills, stats and rarity still need to be researched, designed and approved; the image intentionally does not assign final gameplay values.
+The 64×72 base sprites have more pixel clusters, shading, facial features, hair, clothing and silhouette detail than the first rough sprite sheet. The candidate characters shown are Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. The launch roster is not finalized; classes, skills, stats and rarity remain open.
 
-**Art rules:** 16-bit pixel language, crisp pixel clusters, readable silhouettes, limited palette, consistent sprite scale and nearest-neighbor enlargement. Aim for expressive, cute-creepy cartoon proportions while preserving the recognizable identity of the source character.
+## 2. Weapons and Runes
 
-## 2. Weapons, equipment and Runes
+![Weapons and passive Rune buff icons](assets/weapons-runes-equipment.png)
 
-![Adventure Time weapon studies and Rune buff icons](assets/weapons-runes-equipment.png)
+The weapon section illustrates existing Adventure Time references discussed so far, including the Grass Sword, Demon Blood Sword and Marceline's Bass Axe. These are concept studies, not a final item catalogue.
 
-The weapon concepts reference existing Adventure Time items discussed for the game, including the Grass Sword, Demon Blood Sword and Marceline's Bass Axe. These are visual studies, not an approved catalogue. Exact weapon naming, character compatibility and item acquisition remain open.
+Rune symbols are game-system UI icons for passive buffs:
+- **ATK:** increases attack/damage.
+- **HP:** increases maximum Health.
+- **Mana:** increases maximum Mana.
+- **Heal:** improves healing effectiveness.
+- **DEF:** provides defense or damage reduction.
+- **Crit:** improves a critical statistic.
 
-The Rune icons are **game-system UI symbols**, not invented franchise objects. They show the agreed passive buff families:
+There is one permanent Rune slot per character. Runes activate automatically while equipped, are not battle skills, and return to inventory when replaced. Exact Rune names, values, rarity and upgrade rules remain to be balanced.
 
-| Icon | Example effect family | Behavior |
-|---|---|---|
-| ATK | Damage / attack increase | Passive while equipped |
-| HP | Maximum Health increase | Passive while equipped |
-| Mana | Maximum Mana increase | Passive while equipped |
-| Heal | Healing effectiveness increase | Passive while equipped |
-| DEF | Damage reduction / defense | Passive while equipped |
-| Crit | Critical damage or critical chance | Passive while equipped |
+## 3. Accessories — visual variety
 
-There is one Rune slot per character. Runes are permanent equipment and are not activated as battle skills. Replacing a Rune returns the previous Rune to inventory. Exact names, values, rarities and upgrades remain to be balanced.
+![Accessory shape library with eight silhouettes](assets/accessory-shape-studies.png)
 
-The five equipment slots remain **Weapon, Armor, Rune, Accessory 1 and Accessory 2**. There is no Headgear slot.
+The eight shapes are **generic visual categories**, not newly invented Adventure Time canon items and not final item names. They explore the kind of visual variety that can fit the two Accessory slots:
+- Pendant
+- Ring
+- Bracelet
+- Brooch
+- Charm
+- Buckle
+- Medallion
+- Watch
 
-## 3. Character collection cards
+The art team should later map these categories to actual, source-backed Adventure Time accessories/items. Do not add a generic shape to the canonical item database just because it appears in this style sheet.
 
-![Character collection cards](assets/character-collection-cards.png)
+## 4. Character collection cards
 
-These are **collection cards**, used to browse and inspect owned characters. They are not a deck, a hand of cards or a card-draw combat system.
+![Detailed character collection cards](assets/character-collection-cards.png)
 
-A final character card should display:
-- Character pixel-art portrait.
-- Name and approved class.
-- Level and rarity, if the rarity system is approved.
-- Key stats such as HP, ATK, DEF and Mana.
-- A short passive/skill summary.
-- An action to open full character details or select the character for the three-person team.
+These are character collection cards for browsing and inspecting owned characters. They are not decks, hands, card draws or card-based battles. A final card should display the character portrait, approved class, level, rarity if used, key stats, passive/skills summary and a button to view details or add the character to the three-person team.
 
-The current card values are illustrative placeholders. No character rarity, final stats or class assignment is implied by the image.
+## 5. Battle and equipment interface
 
-## 4. Battle and equipment interface
+![Battle team and five equipment slots](assets/battle-equipment-ui.png)
 
-![Battle team and equipment slots UI](assets/battle-equipment-ui.png)
+The battle view shows one player-controlled team of exactly three characters. The player chooses Attack, Skill, Defend or Item for each character in team order, then the enemies act. Basic Attack is free; active skills generally spend Mana, which regenerates slowly after a full round.
 
-The battle concept shows one player-controlled team of exactly three characters. The player chooses **Attack, Skill, Defend or Item** for each character in team order, then the enemies act. Basic Attack is free; active skills generally use Mana. Mana regeneration is intentionally slow and happens after a full round.
+The five agreed equipment slots remain **Weapon, Armor, Rune, Accessory 1 and Accessory 2**. There is no Headgear slot. The UI now shows two different accessory silhouettes in the two Accessory slots.
 
-The same image also shows the five equipment slots. It is a layout study, not a live Discord screenshot or a final component specification.
+## 6. The Hollow Crypt map
 
-## 5. The Hollow Crypt map
+![The Hollow Crypt branching map](assets/hollow-crypt-map.png)
 
-![The Hollow Crypt map concept](assets/hollow-crypt-map.png)
+The Crypt is the active exploration mode. The player chooses connected rooms and manages risk throughout the run. Room categories discussed include Battle, Elite, Event, Treasure, Merchant, Rest and Boss. Exact map length, room distribution, Run Relic offer frequency and reward rules remain open.
 
-The Crypt is the active exploration mode: the player chooses among connected rooms and manages risk over a run. Room categories discussed include Battle, Elite, Event, Treasure, Merchant, Rest and Boss. The exact number of branches, room distribution, map size, Run Relic frequency and reward rules are not finalized.
+Temporary Run Relics last only for the current Crypt run. They are separate from permanent equipment Runes.
 
-Temporary **Run Relics** belong only to the current Crypt run and disappear when it ends. They are separate from the permanent Rune equipment slot.
+## 7. Pixel-art production guidelines
 
-## 6. Pixel-art production checklist
+- Use a larger base sprite canvas (64×72 for these studies) rather than relying on tiny 32×36 silhouettes.
+- Keep pixel clusters deliberate, with clear outlines, face details, material shading and readable equipment shapes.
+- Enlarge sprites using nearest-neighbor interpolation; never blur or anti-alias pixel art.
+- Keep lighting direction and pixel density consistent across the roster.
+- Use a controlled dark-fantasy palette: deep purple, near-black, crimson and gold, with character-specific colors.
+- Export transparent PNGs for isolated sprites and icons.
+- Create portrait, battle-sprite and thumbnail crops from the same approved source art.
+- Make item silhouettes legible at small Discord attachment sizes.
 
-- Keep sprites readable at small Discord attachment sizes.
-- Use a consistent sprite canvas and pixel density.
-- Enlarge pixel art with nearest-neighbor scaling.
-- Keep the palette controlled: deep purple, near-black, crimson and gold accents, with character-specific colors.
-- Use transparent PNGs for isolated sprites and icons.
-- Create separate portrait, battle-sprite and small collection-thumbnail crops when the art pipeline is finalized.
-- Keep item silhouettes recognizable at 32–64 px.
-- Do not add original characters or original franchise-style weapons while the current content restriction remains in effect.
+## 8. References and licensing
 
-## 7. External reference links
-
-These links are for research and style comparison only; they are not automatically approved game assets.
-
+These are research/style references, not automatically approved project assets:
 - [Adventure Time — Cartoon Network](https://www.cartoonnetwork.com/)
-- [Finn Pixel Sprite — LHTeam](https://lhteam.itch.io/finn-sprite) — 32×32 fan-art sprite study; check the creator's credit terms and separate franchise rights.
-- [Adventure Time Fan Pixel Art — HelkPixel](https://helkpixel.art/projects/3dvqoo) — visual-style reference only.
-- [Adventure Time Platform Game Sprites — jugito08](https://www.deviantart.com/jugito08/art/Adventure-Time-Sprites-for-Plataform-Game-315443364) — community sprite-sheet reference, not an included project asset.
+- [Finn Pixel Sprite — LHTeam](https://lhteam.itch.io/finn-sprite) — fan-art pixel reference; check asset terms and separate franchise rights.
+- [Adventure Time Fan Pixel Art — HelkPixel](https://helkpixel.art/projects/3dvqoo) — style reference only.
 - [Grass Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Grass_Sword)
 - [Demon Blood Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Demon_Blood_Sword)
 - [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials)
 - [Lospec Palette List](https://lospec.com/palette-list)
 - [Aseprite](https://www.aseprite.org/)
 
-A fan wiki or public image URL is not a license. Maintain an asset register with source, creator, license/permission, attribution and repository path. A public or commercial release using protected Adventure Time characters, designs, branding or recognizable franchise items requires the appropriate rights.
+A fan wiki or public image URL is not a license. Maintain an asset register with source, creator, license/permission, attribution and repository path. Public or commercial release using protected Adventure Time characters, designs, branding or recognizable franchise items requires appropriate rights.
 
-## 8. Source and regeneration
+## 9. Regeneration
 
-The concept PNGs are generated from [`tools/generate_visual_assets.py`](../tools/generate_visual_assets.py). The GitHub Actions workflow [`generate-visual-assets.yml`](../.github/workflows/generate-visual-assets.yml) rebuilds them when the generator changes on the documentation branch.
-
-The earlier SVG interface diagrams remain in `docs/assets/` as supplementary layout studies. Use the PNG images above as the main visual previews.
+All PNG concept sheets are generated by [`tools/generate_visual_assets.py`](../tools/generate_visual_assets.py). The [GitHub Actions workflow](../.github/workflows/generate-visual-assets.yml) rebuilds the PNGs when the generator changes on this branch.
