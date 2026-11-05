@@ -134,3 +134,9 @@ Edit the existing battle message whenever possible rather than posting a new mes
 
 The drawing illustrates the three player-controlled team slots and the four action categories. All shown bars and values are placeholders, not final character balance.
 
+
+## Pixel-art battle preview
+
+![Battle and equipment UI concept](assets/battle-equipment-ui.png)
+
+This concept displays the three character slots and the four action categories. It does not define final stat values or turn-order changes: the current agreed flow is the three player actions in team order, then the enemy phase.
