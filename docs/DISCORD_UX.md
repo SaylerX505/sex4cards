@@ -129,3 +129,9 @@ Use consistent terms, short descriptions and clear icon labels. Avoid relying on
 
 The visual mockup illustrates one compact Discord message with navigation controls. Battle, Auto Hunt and Crypt mockups are collected in [Visual Examples](VISUAL_EXAMPLES.md).
 
+
+## Raster battle/equipment preview
+
+![Battle and equipment UI concept](assets/battle-equipment-ui.png)
+
+The visual is a Discord-friendly layout concept, not a screenshot of an implemented bot. Detailed menu navigation and interaction behavior remain in the sections above.
