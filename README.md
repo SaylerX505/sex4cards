@@ -19,11 +19,11 @@ This repository is the living design archive. It documents the intended game; it
 | Runes | One passive Rune slot per character |
 | Activities | Auto Hunt for background farming; The Hollow Crypt for active branching exploration |
 | Card terminology | Collection/detail cards are UI panels, not decks or card-based combat |
-| Realm progression | No Realm unlocking or Realm progression system |
+| Realm progression | - |
 
 ## Visual references supplied for this project
 
-These are the current reference images committed by the project owner. They guide the art treatment; they are not automatically approved final game assets or proof of usage rights.
+These are the current reference images. They guide the art treatment; they are not automatically approved final game assets.
 
 ### Character-art quality reference
 
