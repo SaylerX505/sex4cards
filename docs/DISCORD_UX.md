@@ -122,3 +122,10 @@ Errors should explain the reason and next action. Examples:
 ## 11. Accessibility and localization
 
 Use consistent terms, short descriptions and clear icon labels. Avoid relying only on color to communicate rarity or status. The initial project conversation is in Arabic, but code identifiers and canonical data keys should remain stable; localization can provide Arabic and English display strings later.
+
+## 12. Main menu visual example
+
+![Discord main menu mockup](assets/discord-main-menu.svg)
+
+The visual mockup illustrates one compact Discord message with navigation controls. Battle, Auto Hunt and Crypt mockups are collected in [Visual Examples](VISUAL_EXAMPLES.md).
+
