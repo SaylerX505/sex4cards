@@ -108,3 +108,10 @@ The exact persistence rules for HP/Mana between Auto Hunt encounters must be spe
 Automated action selection must use the same valid action rules as a human player. It must not cast skills without sufficient Mana or use items the player does not own. Random outcomes must be server-side and auditable through logs.
 
 If a worker crashes, a run must not be paid twice or lost silently. Use idempotent run settlement and transaction-safe reward grants.
+
+## 11. Auto Hunt visual example
+
+![Auto Hunt session mockup](assets/auto-hunt-mockup.svg)
+
+This is a setup/report concept, not a live screenshot. It highlights background processing, concise progress reporting and the exclusion of playable characters and weapons from ordinary Auto Hunt drops.
+
