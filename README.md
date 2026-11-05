@@ -25,6 +25,8 @@ These are **actual PNG images** committed to the repository (not SVG source prev
 
 ![Weapons, equipment and passive Rune icons](docs/assets/weapons-runes-equipment.png)
 
+![Accessory shape studies](docs/assets/accessory-shape-studies.png)
+
 ![Character collection cards](docs/assets/character-collection-cards.png)
 
 ![Battle and equipment UI concept](docs/assets/battle-equipment-ui.png)
