@@ -17,6 +17,14 @@ This repository currently contains the game's **design documentation**. It is no
 - **Progression activities:** Auto Hunt and The Hollow Crypt serve different purposes.
 - **Combat cards/decks:** No deck-building or deck-based combat is currently part of the design.
 
+## Visual preview
+
+The repository now includes SVG mockups for the Discord main menu, Character Card, collection gallery, turn-based battle screen, equipment inventory, Auto Hunt, Hollow Crypt map and 16-bit art direction.
+
+![THE HOLLOW REALMS visual overview](docs/assets/visual-overview.svg)
+
+See **[Visual Examples & Interface Mockups](docs/VISUAL_EXAMPLES.md)** for the full set of images and notes about placeholders, asset provenance and licensing.
+
 ## Documentation
 
 | Document | What it covers |
