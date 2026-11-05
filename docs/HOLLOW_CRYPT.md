@@ -94,3 +94,10 @@ Persist the current run after each meaningful choice, room transition, battle ac
 - [Slay the Spire official site](https://www.megacrit.com/)
 
 The references explain inspiration only; do not reproduce their maps, text, artwork, names or exact reward content.
+
+## 12. Crypt map visual example
+
+![Hollow Crypt branching map](assets/hollow-crypt-map.svg)
+
+The sample map demonstrates connected room choices only. Actual map size, room distribution, run length, reward values and transition rules remain open until approved.
+
