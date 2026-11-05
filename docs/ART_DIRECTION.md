@@ -98,3 +98,11 @@ The project includes interface and style-board examples in [Visual Examples](VIS
 
 These are SVG design mockups. They use neutral art placeholders and do not introduce new characters or named franchise items. Final Adventure Time pixel-art assets must be approved/licensed and tracked in the asset register.
 
+
+## Raster pixel-art examples
+
+![Character roster pixel-art studies](assets/character-pixel-roster.png)
+
+![Weapon and Rune icon pixel-art studies](assets/weapons-runes-equipment.png)
+
+The PNGs show the current pixel-art direction directly. They are early concept studies, not final licensed franchise assets. Keep the crisp 16-bit treatment, clear silhouettes and controlled palette when replacing these studies with final art.
