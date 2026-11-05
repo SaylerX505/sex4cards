@@ -81,10 +81,13 @@ Temporary **Run Relics** belong only to the current Crypt run and disappear when
 These links are for research and style comparison only; they are not automatically approved game assets.
 
 - [Adventure Time — Cartoon Network](https://www.cartoonnetwork.com/)
+- [Finn Pixel Sprite — LHTeam](https://lhteam.itch.io/finn-sprite) — 32×32 fan-art sprite study; check the creator's credit terms and separate franchise rights.
+- [Adventure Time Fan Pixel Art — HelkPixel](https://helkpixel.art/projects/3dvqoo) — visual-style reference only.
+- [Adventure Time Platform Game Sprites — jugito08](https://www.deviantart.com/jugito08/art/Adventure-Time-Sprites-for-Plataform-Game-315443364) — community sprite-sheet reference, not an included project asset.
 - [Grass Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Grass_Sword)
 - [Demon Blood Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Demon_Blood_Sword)
 - [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials)
-- [Lospec Palette List](https://lospec.com/pixel-art-tutorials)
+- [Lospec Palette List](https://lospec.com/palette-list)
 - [Aseprite](https://www.aseprite.org/)
 
 A fan wiki or public image URL is not a license. Maintain an asset register with source, creator, license/permission, attribution and repository path. A public or commercial release using protected Adventure Time characters, designs, branding or recognizable franchise items requires the appropriate rights.
