@@ -127,3 +127,10 @@ A battle message should show:
 - Skill descriptions and Mana costs before confirmation.
 
 Edit the existing battle message whenever possible rather than posting a new message for every action. Disable or reject stale controls after the state changes.
+
+## 10. Battle screen visual example
+
+![Turn-based battle mockup](assets/battle-ui-mockup.svg)
+
+The drawing illustrates the three player-controlled team slots and the four action categories. All shown bars and values are placeholders, not final character balance.
+
