@@ -117,3 +117,9 @@ The weapon art is a visual study of existing Adventure Time references, not an a
 ![Five equipment slots and battle UI](assets/battle-equipment-ui.png)
 
 The five slots shown are Weapon, Armor, Rune, Accessory 1 and Accessory 2. No Headgear slot is present.
+
+## Accessory visual studies
+
+![Eight accessory shape studies](assets/accessory-shape-studies.png)
+
+These are generic visual categories for exploring variety across the two agreed Accessory slots: Pendant, Ring, Bracelet, Brooch, Charm, Buckle, Medallion and Watch. They are shape studies only—not newly invented franchise items, final names or approved drop-table entries. The final catalogue must use source-backed Adventure Time items that fit the current content direction.
