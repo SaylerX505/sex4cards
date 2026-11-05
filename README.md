@@ -17,13 +17,21 @@ This repository currently contains the game's **design documentation**. It is no
 - **Progression activities:** Auto Hunt and The Hollow Crypt serve different purposes.
 - **Combat cards/decks:** No deck-building or deck-based combat is currently part of the design.
 
-## Visual preview
+## Pixel-art preview
 
-The repository now includes SVG mockups for the Discord main menu, Character Card, collection gallery, turn-based battle screen, equipment inventory, Auto Hunt, Hollow Crypt map and 16-bit art direction.
+These are **actual PNG images** committed to the repository (not SVG source previews). They show the current visual direction for the character roster, weapon and Rune icons, collection cards, battle/equipment UI and Crypt map.
 
-![THE HOLLOW REALMS visual overview](docs/assets/visual-overview.svg)
+![THE HOLLOW REALMS character pixel-art roster](docs/assets/character-pixel-roster.png)
 
-See **[Visual Examples & Interface Mockups](docs/VISUAL_EXAMPLES.md)** for the full set of images and notes about placeholders, asset provenance and licensing.
+![Weapons, equipment and passive Rune icons](docs/assets/weapons-runes-equipment.png)
+
+![Character collection cards](docs/assets/character-collection-cards.png)
+
+![Battle and equipment UI concept](docs/assets/battle-equipment-ui.png)
+
+![The Hollow Crypt branching map](docs/assets/hollow-crypt-map.png)
+
+For descriptions and design notes, see **[Visual Examples & Pixel-Art Guide](docs/VISUAL_EXAMPLES.md)**.
 
 ## Documentation
 
