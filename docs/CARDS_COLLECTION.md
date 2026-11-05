@@ -84,3 +84,10 @@ This is a hard boundary in the current design:
 ## 9. Asset provenance
 
 Store asset source, license/permission status, attribution and file path alongside each character/item image. Adventure Time artwork is protected franchise material; the existence of a wiki image or a public URL does not mean the project has permission to redistribute it.
+
+## 10. Visual example
+
+![Character collection cards](assets/cards-collection-mockup.svg)
+
+See [Visual Examples](VISUAL_EXAMPLES.md) for the full collection and Character Card mockups. Cards remain collection/presentation UI only; they do not become a deck or combat mechanic.
+
