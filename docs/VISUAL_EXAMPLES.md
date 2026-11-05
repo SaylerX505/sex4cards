@@ -8,7 +8,7 @@ This page contains raster PNG previews for THE HOLLOW REALMS. These images are c
 
 ![Detailed Adventure Time character pixel-art studies](assets/character-pixel-roster.png)
 
-The 64×72 base sprites have more pixel clusters, shading, facial features, hair, clothing and silhouette detail than the first rough sprite sheet. The candidate characters shown are Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. The launch roster is not finalized; classes, skills, stats and rarity remain open.
+**Important quality update:** the displayed 64×72 sprite studies are now considered rough placeholders only. They are not the target finish. The approved direction is premium high-detail pixel-art illustration with variable resolution, richer shading, expressive faces, detailed clothing and carefully rendered weapons. No fixed bit-depth or canvas size is required. See [Art Direction](ART_DIRECTION.md) for the new quality bar. The candidate characters shown are Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. The launch roster is not finalized; classes, skills, stats and rarity remain open.
 
 ## 2. Weapons and Runes
 
@@ -66,8 +66,12 @@ Temporary Run Relics last only for the current Crypt run. They are separate from
 
 ## 7. Pixel-art production guidelines
 
-- Use a larger base sprite canvas (64×72 for these studies) rather than relying on tiny 32×36 silhouettes.
-- Keep pixel clusters deliberate, with clear outlines, face details, material shading and readable equipment shapes.
+- Treat the existing character PNG as a placeholder, not final artwork.
+- Build a polished character design sheet first, then derive portrait, battle and card crops from it.
+- Use variable resolution and pixel density; do not enforce a 12-bit/16-bit label or fixed sprite canvas.
+
+- Use a canvas size appropriate to each composition; the old 64×72 study is not a production constraint.
+- Keep pixel clusters deliberate, with expressive faces, layered material shading, costume construction and readable equipment shapes.
 - Enlarge sprites using nearest-neighbor interpolation; never blur or anti-alias pixel art.
 - Keep lighting direction and pixel density consistent across the roster.
 - Use a controlled dark-fantasy palette: deep purple, near-black, crimson and gold, with character-specific colors.
