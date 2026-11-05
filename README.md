@@ -73,7 +73,3 @@ This is a living design specification. The detailed documents label unconfirmed 
 - [Mortal Kombat Mobile — official game page](https://www.mortalkombat.com/)
 - [Slay the Spire — official site](https://www.megacrit.com/)
 - [GitHub repository](https://github.com/SaylerX505/sex4cards)
-
-## Intellectual property note
-
-Adventure Time is an existing copyrighted franchise. Using its characters, names, artwork, weapons or other protected elements in a publicly distributed or commercial game may require permission or a license from the relevant rights holders. This documentation describes the requested creative direction; it does not grant any rights. Use original commissioned/licensed assets and obtain legal guidance before public or commercial release.
