@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+<title id="title">16-BIT PIXEL ART BOARD</title><desc id="desc">Art-direction reference board • not final character artwork or licensed game assets</desc>
+<defs>
+  <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#30264b" stroke-width="1"/></pattern>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#100d1e"/><stop offset="1" stop-color="#1d1530"/></linearGradient>
+  <filter id="soft"><feGaussianBlur stdDeviation="18"/></filter>
+</defs>
+<rect width="1200" height="720" fill="url(#bg)"/>
+<rect width="1200" height="720" fill="url(#grid)" opacity=".34"/>
+<circle cx="1080" cy="90" r="120" fill="#623b93" opacity=".16" filter="url(#soft)"/>
+<circle cx="90" cy="650" r="145" fill="#a52d58" opacity=".12" filter="url(#soft)"/>
+<rect x="36" y="32" width="1128" height="656" rx="8" fill="none" stroke="#6c5794" stroke-width="2"/>
+<text x="64" y="84" fill="#f4eaff" font-family="monospace" font-weight="700" font-size="30" letter-spacing="2">16-BIT PIXEL ART BOARD</text>
+<text x="64" y="116" fill="#b9a9d2" font-family="monospace" font-size="15">Art-direction reference board • not final character artwork or licensed game assets</text>
+
+    <rect x="64" y="154" width="1072" height="500" rx="8" fill="#171126" stroke="#6e5892" stroke-width="2"/>
+    <text x="96" y="202" fill="#e0b85c" font-family="monospace" font-size="18" font-weight="700">PALETTE DIRECTION</text>
+    <rect x="96" y="226" width="104" height="78" rx="2" fill="#100d1e" stroke="#100d1e" stroke-width="0"/><text x="96" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#100D1E</text><rect x="222" y="226" width="104" height="78" rx="2" fill="#261a43" stroke="#261a43" stroke-width="0"/><text x="222" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#261A43</text><rect x="348" y="226" width="104" height="78" rx="2" fill="#623b93" stroke="#623b93" stroke-width="0"/><text x="348" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#623B93</text><rect x="474" y="226" width="104" height="78" rx="2" fill="#a52d58" stroke="#a52d58" stroke-width="0"/><text x="474" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#A52D58</text><rect x="600" y="226" width="104" height="78" rx="2" fill="#e0b85c" stroke="#e0b85c" stroke-width="0"/><text x="600" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#E0B85C</text><rect x="726" y="226" width="104" height="78" rx="2" fill="#e6dce9" stroke="#e6dce9" stroke-width="0"/><text x="726" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#E6DCE9</text><rect x="852" y="226" width="104" height="78" rx="2" fill="#76d6ca" stroke="#76d6ca" stroke-width="0"/><text x="852" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#76D6CA</text><rect x="978" y="226" width="104" height="78" rx="2" fill="#75bf8a" stroke="#75bf8a" stroke-width="0"/><text x="978" y="330" fill="#d8cbea" font-family="monospace" font-size="13" font-weight="500">#75BF8A</text>
+    <path d="M96 366L1104 366" fill="none" stroke="#594572" stroke-width="1"/>
+    <text x="96" y="408" fill="#e0b85c" font-family="monospace" font-size="18" font-weight="700">PIXEL RULES</text>
+    <rect x="96" y="438" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="116" y="468" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Crisp pixel clusters</text><rect x="434" y="438" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="454" y="468" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Nearest-neighbor scaling</text><rect x="772" y="438" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="792" y="468" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Readable at Discord size</text><rect x="96" y="508" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="116" y="538" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Consistent light direction</text><rect x="434" y="508" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="454" y="538" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Limited palette per sprite</text><rect x="772" y="508" width="300" height="48" rx="3" fill="#241a39" stroke="#765c9b" stroke-width="2"/><text x="792" y="538" fill="#f4eaff" font-family="monospace" font-size="14" font-weight="700">Transparent icon backgrounds</text>
+    <text x="96" y="610" fill="#b9a9d2" font-family="monospace" font-size="13" font-weight="500">Character sprites and franchise item art must come from approved/licensed sources.</text>
+  
+</svg>
