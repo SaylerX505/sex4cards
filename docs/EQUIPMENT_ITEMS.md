@@ -100,3 +100,10 @@ Equip operations must validate ownership and slot compatibility in one transacti
 ## 9. Consumables and materials
 
 Battle consumables may restore HP or Mana and may support the Crypt's recovery decisions. Upgrade materials, crafting materials, monster drops, Essence and Gold are possible reward categories. Exact names, sources and economy values remain open.
+
+## 10. Equipment visual example
+
+![Equipment and inventory mockup](assets/equipment-inventory-mockup.svg)
+
+The image shows the five agreed slots only: Weapon, Armor, Rune, Accessory 1 and Accessory 2. Generic symbols are category placeholders, not invented weapon designs.
+
