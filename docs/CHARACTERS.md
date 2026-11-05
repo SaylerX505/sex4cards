@@ -126,3 +126,9 @@ Adventure Time characters and their visual designs are protected franchise mater
 
 The artwork frame is a placeholder for approved/licensed Adventure Time pixel art. The displayed character is a candidate roster example only; class, rarity, skills and stats remain unfinalized until explicitly approved.
 
+
+## Pixel-art roster preview
+
+![Character pixel-art roster studies](assets/character-pixel-roster.png)
+
+The image is a style study for the six Adventure Time candidates mentioned in the design discussion. It does not finalize the roster, gameplay classes, rarity, stats or skills. The companion [collection card preview](assets/character-collection-cards.png) shows how a character may appear in the Discord collection UI.
