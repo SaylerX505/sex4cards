@@ -7,7 +7,7 @@ Characters are collectible units used to form the player's combat team. Each bat
 The current creative direction is:
 - Adventure Time characters for the roster.
 - No original player characters or invented franchise characters for now.
-- 16-bit pixel-art presentation.
+- Premium, high-detail pixel-art character illustration with flexible resolution and no fixed bit-depth or sprite-size limit.
 - RPG classes and statistics are game mechanics layered onto the selected characters; they are not claims about official franchise canon.
 
 The roster is not finalized. Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO have been mentioned as possible entries, but none of their final stats, rarity, skills or launch availability have been locked.
