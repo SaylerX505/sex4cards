@@ -1,80 +1,96 @@
-# Visual Examples & Interface Mockups
+# Visual Examples & Pixel-Art Guide
 
-These mockups make the current design easier to picture before implementation. They are **design references**, not screenshots of a working bot and not final balance data.
+This page contains the **raster PNG previews** for THE HOLLOW REALMS. These files are stored in `docs/assets/` and should display directly in GitHub's Markdown viewer.
 
-> **Content boundary:** The current roster direction is Adventure Time characters only. No original characters, original franchise-style weapons, or invented lore are introduced here. Character images are neutral placeholders until approved/licensed pixel-art assets are available.
+> **Important:** These are early pixel-art concept studies and interface mockups, not final shipped assets or official Adventure Time artwork. They visualize the direction and selected recognizable references. Final character/item assets need a proper art pass and the appropriate rights for release.
 
-## 1. Overall visual direction
+## 1. Character sprite direction
 
-![THE HOLLOW REALMS visual overview](assets/visual-overview.svg)
+![Adventure Time character pixel-art roster studies](assets/character-pixel-roster.png)
 
-The game combines dark-fantasy atmosphere with whimsical cartoon energy. The approved visual medium is 16-bit pixel art. Use deep purple, near-black, crimson and gold as the main palette direction.
+The roster studies visualize the characters discussed so far: Finn, Jake, Marceline, Princess Bubblegum, Ice King and BMO. The launch roster is not yet finalized. The class labels, skills, stats and rarity still need to be researched, designed and approved; the image intentionally does not assign final gameplay values.
 
-## 2. Discord main menu
+**Art rules:** 16-bit pixel language, crisp pixel clusters, readable silhouettes, limited palette, consistent sprite scale and nearest-neighbor enlargement. Aim for expressive, cute-creepy cartoon proportions while preserving the recognizable identity of the source character.
 
-![Discord main menu mockup](assets/discord-main-menu.svg)
+## 2. Weapons, equipment and Runes
 
-A compact, editable message can surface the active team and route players to Characters, Team, Inventory, Dungeons, Auto Hunt, Crypt and Profile. Long lists should use pagination rather than oversized embeds.
+![Adventure Time weapon studies and Rune buff icons](assets/weapons-runes-equipment.png)
 
-## 3. Character detail card
+The weapon concepts reference existing Adventure Time items discussed for the game, including the Grass Sword, Demon Blood Sword and Marceline's Bass Axe. These are visual studies, not an approved catalogue. Exact weapon naming, character compatibility and item acquisition remain open.
 
-![Character card mockup](assets/character-card-mockup.svg)
+The Rune icons are **game-system UI symbols**, not invented franchise objects. They show the agreed passive buff families:
 
-The portrait area is reserved for approved Adventure Time pixel art. Finn is shown only as a candidate roster example; class, rarity, skill kit and numeric stats are intentionally marked as pending. The card is a presentation layer, not a combat card.
+| Icon | Example effect family | Behavior |
+|---|---|---|
+| ATK | Damage / attack increase | Passive while equipped |
+| HP | Maximum Health increase | Passive while equipped |
+| Mana | Maximum Mana increase | Passive while equipped |
+| Heal | Healing effectiveness increase | Passive while equipped |
+| DEF | Damage reduction / defense | Passive while equipped |
+| Crit | Critical damage or critical chance | Passive while equipped |
 
-## 4. Collection gallery
+There is one Rune slot per character. Runes are permanent equipment and are not activated as battle skills. Replacing a Rune returns the previous Rune to inventory. Exact names, values, rarities and upgrades remain to be balanced.
 
-![Character collection grid mockup](assets/cards-collection-mockup.svg)
+The five equipment slots remain **Weapon, Armor, Rune, Accessory 1 and Accessory 2**. There is no Headgear slot.
 
-Collection cards are browseable UI tiles. The design does **not** include a deck, hand, card draw or deck-based battle mechanic.
+## 3. Character collection cards
 
-## 5. Battle screen
+![Character collection cards](assets/character-collection-cards.png)
 
-![Turn based battle UI mockup](assets/battle-ui-mockup.svg)
+These are **collection cards**, used to browse and inspect owned characters. They are not a deck, a hand of cards or a card-draw combat system.
 
-The player chooses Attack, Skill, Defend or Item for each of the three team slots in order. After all three actions, enemies act. Basic Attack is free; Mana is used for active skills and regenerates slowly after a full round. The HP bars and labels in the drawing are placeholders only.
+A final character card should display:
+- Character pixel-art portrait.
+- Name and approved class.
+- Level and rarity, if the rarity system is approved.
+- Key stats such as HP, ATK, DEF and Mana.
+- A short passive/skill summary.
+- An action to open full character details or select the character for the three-person team.
 
-## 6. Equipment and inventory
+The current card values are illustrative placeholders. No character rarity, final stats or class assignment is implied by the image.
 
-![Equipment inventory mockup](assets/equipment-inventory-mockup.svg)
+## 4. Battle and equipment interface
 
-The five agreed slots are Weapon, Armor, Rune, Accessory 1 and Accessory 2. There is no Headgear slot. Runes are passive buffs and replacing one returns the previous Rune to inventory. The category symbols in this image are UI placeholders, not new named weapons or items.
+![Battle team and equipment slots UI](assets/battle-equipment-ui.png)
 
-## 7. Auto Hunt
+The battle concept shows one player-controlled team of exactly three characters. The player chooses **Attack, Skill, Defend or Item** for each character in team order, then the enemies act. Basic Attack is free; active skills generally use Mana. Mana regeneration is intentionally slow and happens after a full round.
 
-![Auto Hunt setup and report mockup](assets/auto-hunt-mockup.svg)
+The same image also shows the five equipment slots. It is a layout study, not a live Discord screenshot or a final component specification.
 
-Auto Hunt is background farming. It shares battle rules where practical, but does not ask the player to approve each action and should not send a message per run. Potential loot includes Runes, Accessories, Gold and materials. Ordinary Auto Hunt does not directly award playable characters or weapons.
+## 5. The Hollow Crypt map
 
-## 8. The Hollow Crypt
+![The Hollow Crypt map concept](assets/hollow-crypt-map.png)
 
-![Hollow Crypt branching map mockup](assets/hollow-crypt-map.svg)
+The Crypt is the active exploration mode: the player chooses among connected rooms and manages risk over a run. Room categories discussed include Battle, Elite, Event, Treasure, Merchant, Rest and Boss. The exact number of branches, room distribution, map size, Run Relic frequency and reward rules are not finalized.
 
-The Crypt is an active branching exploration run. Example rooms include Battle, Elite, Treasure, Event, Merchant, Rest and Boss. Run HP persists according to the final run rules. Run Relics are temporary and expire at the end of the run; they are different from permanent equipment Runes.
+Temporary **Run Relics** belong only to the current Crypt run and disappear when it ends. They are separate from the permanent Rune equipment slot.
 
-## 9. Pixel-art style board
+## 6. Pixel-art production checklist
 
-![Pixel art style board](assets/pixel-art-style-board.svg)
+- Keep sprites readable at small Discord attachment sizes.
+- Use a consistent sprite canvas and pixel density.
+- Enlarge pixel art with nearest-neighbor scaling.
+- Keep the palette controlled: deep purple, near-black, crimson and gold accents, with character-specific colors.
+- Use transparent PNGs for isolated sprites and icons.
+- Create separate portrait, battle-sprite and small collection-thumbnail crops when the art pipeline is finalized.
+- Keep item silhouettes recognizable at 32–64 px.
+- Do not add original characters or original franchise-style weapons while the current content restriction remains in effect.
 
-Use crisp clusters, deliberate outlines, consistent light direction and nearest-neighbor scaling. These mockups use vector shapes for interface planning; they are not a substitute for final pixel-art sprites.
+## 7. External reference links
 
-## 10. External visual references
+These links are for research and style comparison only; they are not automatically approved game assets.
 
-The links below are for discussion and style study only. They are **not approved game assets**, and the project must independently verify copyright, license, attribution and any Adventure Time permissions before bundling or publishing artwork.
+- [Adventure Time — Cartoon Network](https://www.cartoonnetwork.com/)
+- [Grass Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Grass_Sword)
+- [Demon Blood Sword — fan-maintained reference](https://adventuretime.fandom.com/wiki/Demon_Blood_Sword)
+- [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials)
+- [Lospec Palette List](https://lospec.com/pixel-art-tutorials)
+- [Aseprite](https://www.aseprite.org/)
 
-- [Finn Pixel Sprite by LHTeam (itch.io)](https://lhteam.itch.io/finn-sprite) — fan-art pixel sprite reference; verify the asset terms and franchise rights before use.
-- [Pixel Time: Jake, Finn & BMO (Dribbble)](https://dribbble.com/shots/2500293-Pixel-Time-8-Bit-Jake-Finn-Beemo) — fan-art style reference; not a cleared asset.
-- [Lospec Pixel Art Tutorials](https://lospec.com/pixel-art-tutorials) — general pixel-art technique.
-- [Aseprite](https://www.aseprite.org/) — sprite and animation workflow.
+A fan wiki or public image URL is not a license. Maintain an asset register with source, creator, license/permission, attribution and repository path. A public or commercial release using protected Adventure Time characters, designs, branding or recognizable franchise items requires the appropriate rights.
 
-## 11. Asset pipeline
+## 8. Source and regeneration
 
-For each final art file, record:
-- Asset ID and in-game use.
-- Source/creator and source URL.
-- License or written permission.
-- Attribution requirements.
-- Pixel dimensions, palette and animation frames.
-- Local repository path and revision.
+The concept PNGs are generated from [`tools/generate_visual_assets.py`](../tools/generate_visual_assets.py). The GitHub Actions workflow [`generate-visual-assets.yml`](../.github/workflows/generate-visual-assets.yml) rebuilds them when the generator changes on the documentation branch.
 
-Do not treat an image search result, fan wiki image or public image URL as permission to redistribute an asset. A commercial or public release using Adventure Time characters, designs, logos or franchise items requires appropriate legal permission/licensing.
+The earlier SVG interface diagrams remain in `docs/assets/` as supplementary layout studies. Use the PNG images above as the main visual previews.
