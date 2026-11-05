@@ -107,3 +107,13 @@ Battle consumables may restore HP or Mana and may support the Crypt's recovery d
 
 The image shows the five agreed slots only: Weapon, Armor, Rune, Accessory 1 and Accessory 2. Generic symbols are category placeholders, not invented weapon designs.
 
+
+## Pixel-art equipment preview
+
+![Weapon and Rune pixel-art studies](assets/weapons-runes-equipment.png)
+
+The weapon art is a visual study of existing Adventure Time references, not an approved complete item catalogue. The Rune icons are original UI symbols for the agreed passive buff categories (ATK, HP, Mana, Healing, DEF and Crit); they do not introduce new story items or weapons.
+
+![Five equipment slots and battle UI](assets/battle-equipment-ui.png)
+
+The five slots shown are Weapon, Armor, Rune, Accessory 1 and Accessory 2. No Headgear slot is present.
