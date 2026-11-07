@@ -85,5 +85,3 @@ Start with [the documentation index](docs/README.md). The main design documents 
 ## Status discipline
 
 Every catalogue entry and mechanic is labelled as confirmed direction, source-backed reference, proposal or open decision. Values shown in reference images are not final balance. Unknown item names, acquisition routes, rarity, stats and upgrade costs stay explicitly unknown until approved.
-
-Adventure Time is protected intellectual property. A reference image or fan-maintained wiki is not a licence. Public or commercial release requires appropriate rights and asset-permission review.
