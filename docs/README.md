@@ -17,6 +17,14 @@ This folder is the project's design archive. Use this page as the navigation hub
 | [Technical Blueprint](TECHNICAL_BLUEPRINT.md) | Suggested services, storage and transaction safety |
 | [Roadmap](ROADMAP.md) | Suggested delivery phases and open design decisions |
 
+## Experimental proposals
+
+| Document | What belongs here |
+|---|---|
+| [Card-Battle Gameplay Proposal](CARD_BATTLE_GAMEPLAY_PROPOSAL.md) | Unapproved alternative gameplay direction combining tactical card combat, roguelike runs, Resonance patterns, and build-defining Relics |
+
+Experimental proposals are kept separate from the canonical design. They do not replace current system documents unless explicitly reviewed and approved.
+
 ## Art and asset archive
 
 | Document | What belongs here |
