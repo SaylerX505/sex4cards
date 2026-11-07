@@ -6,6 +6,8 @@ THE HOLLOW REALMS is designed to be played inside Discord. Players collect Adven
 
 This repository is the living design archive. It documents the intended game; it does not claim that the bot or its systems have already been implemented.
 
+> **Experimental branch note:** This branch also contains an alternative card-battle gameplay proposal. It is exploratory only and does not replace the canonical design rules below. The full proposal is in [Experimental Card-Battle Gameplay](docs/CARD_BATTLE_GAMEPLAY_PROPOSAL.md).
+
 ## Project snapshot
 
 | Area | Current direction |
@@ -18,7 +20,7 @@ This repository is the living design archive. It documents the intended game; it
 | Equipment | Weapon, Armor, Rune, Accessory 1 and Accessory 2 |
 | Runes | One passive Rune slot per character |
 | Activities | Auto Hunt for background farming; The Hollow Crypt for active branching exploration |
-| Card terminology | Collection/detail cards are UI panels, not decks or card-based combat |
+| Card terminology | Collection/detail cards are UI panels, not decks or card-based combat in the canonical design |
 | Realm progression | - |
 
 ## Visual references supplied for this project
@@ -52,13 +54,14 @@ Start with [the documentation index](docs/README.md). The main design documents 
 | [Item Catalogue](docs/items/README.md) | Individual item records, categories, status and open fields |
 | [Auto Hunt](docs/AUTO_HUNT.md) | Background farming and reward boundaries |
 | [The Hollow Crypt](docs/HOLLOW_CRYPT.md) | Branching exploration and temporary Run Relics |
-| [Cards & Collection UI](docs/CARDS_COLLECTION.md) | Character/item presentation without deck combat |
+| [Cards & Collection UI](docs/CARDS_COLLECTION.md) | Character/item presentation without deck combat in the canonical design |
 | [Discord UX](docs/DISCORD_UX.md) | Commands, controls, embeds and low-spam interaction patterns |
 | [Art Direction](docs/ART_DIRECTION.md) | Character, Rune, item and interface visual standards |
 | [Visual Examples](docs/VISUAL_EXAMPLES.md) | Supplied references and historical mockups |
 | [Asset Register](docs/ASSET_REGISTER.md) | Image provenance, status, locations and rights checklist |
 | [Technical Blueprint](docs/TECHNICAL_BLUEPRINT.md) | Proposed architecture, persistence and reliability |
 | [Roadmap](docs/ROADMAP.md) | Suggested implementation sequence and unresolved decisions |
+| [Experimental Card-Battle Gameplay Proposal](docs/CARD_BATTLE_GAMEPLAY_PROPOSAL.md) | Separate, unapproved alternative combining tactical card combat, roguelike runs and pattern-based synergies |
 
 ## Core gameplay loop
 
@@ -80,7 +83,13 @@ Start with [the documentation index](docs/README.md). The main design documents 
 7. Ordinary Auto Hunt must not directly award playable characters or weapons.
 8. Auto Hunt and The Hollow Crypt are different activities.
 9. No original characters or invented Adventure Time canon items are in scope for now.
-10. No deck-building or Realm-unlocking system is part of the current design.
+10. No deck-building or Realm-unlocking system is part of the current canonical design.
+
+## Experimental alternate gameplay proposal
+
+The [Card-Battle Gameplay Proposal](docs/CARD_BATTLE_GAMEPLAY_PROPOSAL.md) explores a separate direction: three personal character decks, a shared hand and AP economy, tactical weaknesses and Handoffs, Resonance patterns, Relics, and roguelike run progression.
+
+This is a proposal for evaluation and prototyping only. It does not amend the canonical combat or activity documents. No merge or design replacement is implied.
 
 ## Status discipline
 
